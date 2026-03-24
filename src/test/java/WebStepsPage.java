@@ -24,7 +24,7 @@ public class WebStepsPage {
         $(By.linkText(repo)).click();
     }
 
-    @Step("Открываем Issues")
+    @Step("Открываем таб Issues")
     public void openIssueTab() {
         $("#issues-tab").click();
     }
